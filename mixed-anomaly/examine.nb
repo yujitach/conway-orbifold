@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      8189,        240]
-NotebookOptionsPosition[      5679,        189]
-NotebookOutlinePosition[      6115,        206]
-CellTagsIndexPosition[      6072,        203]
+NotebookDataLength[      8777,        250]
+NotebookOptionsPosition[      6083,        197]
+NotebookOutlinePosition[      6519,        214]
+CellTagsIndexPosition[      6476,        211]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -91,6 +91,12 @@ Cell[BoxData[
    RowBox[{"<<", "\"\<result.m\>\""}]}], ";"}]], "Input",
  CellLabel->"In[50]:=",ExpressionUUID->"53563c43-ff94-40ea-9bd4-028b333c80b1"],
 
+Cell["\<\
+X  now  contains the commuting pair id\[CloseCurlyQuote]s of (g^{2i},hg^j) \
+for Co1. We lift them to Co0, and find the SL2Z orbits containing them. It \
+turns out that there are only two:\
+\>", "Text",ExpressionUUID->"b672bd97-82f3-4626-a11c-dbfcfeaa69d3"],
+
 Cell[CellGroupData[{
 
 Cell[BoxData[
@@ -135,6 +141,8 @@ Cell[BoxData[
 Cell[BoxData["0"], "Output",
  CellLabel->"Out[52]=",ExpressionUUID->"95865dbe-dae0-4f6c-bc6d-27ed3f95039b"]
 }, Open  ]],
+
+Cell["The  partition functions for (g^{2i},g^{2j}) can be nonzero:", "Text",ExpressionUUID->"191ac87d-28d0-4b25-a01b-3601844f7337"],
 
 Cell[CellGroupData[{
 
@@ -218,29 +226,31 @@ Cell[1637, 55, 151, 2, 30, "Input",ExpressionUUID->"daca396f-18ae-456c-93f9-ae7c
 Cell[1791, 59, 691, 20, 52, "Input",ExpressionUUID->"3809d01b-1a10-476a-8526-e2405071cc27"],
 Cell[2485, 81, 202, 4, 30, "Input",ExpressionUUID->"6fe01e00-08ef-4642-80e3-5c55aa043252"],
 Cell[2690, 87, 181, 4, 30, "Input",ExpressionUUID->"53563c43-ff94-40ea-9bd4-028b333c80b1"],
+Cell[2874, 93, 267, 4, 58, "Text",ExpressionUUID->"b672bd97-82f3-4626-a11c-dbfcfeaa69d3"],
 Cell[CellGroupData[{
-Cell[2896, 95, 641, 18, 52, "Input",ExpressionUUID->"2833b6d8-f199-4c78-9ca7-7af72ce2ac8f"],
-Cell[3540, 115, 253, 7, 34, "Output",ExpressionUUID->"05cfec17-94a1-4201-8971-f0f408ecab9e"]
+Cell[3166, 101, 641, 18, 52, "Input",ExpressionUUID->"2833b6d8-f199-4c78-9ca7-7af72ce2ac8f"],
+Cell[3810, 121, 253, 7, 34, "Output",ExpressionUUID->"05cfec17-94a1-4201-8971-f0f408ecab9e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3830, 127, 236, 5, 30, "Input",ExpressionUUID->"424510ed-b655-4993-8761-86a2bf5ba965"],
-Cell[4069, 134, 107, 1, 34, "Output",ExpressionUUID->"95865dbe-dae0-4f6c-bc6d-27ed3f95039b"]
+Cell[4100, 133, 236, 5, 30, "Input",ExpressionUUID->"424510ed-b655-4993-8761-86a2bf5ba965"],
+Cell[4339, 140, 107, 1, 34, "Output",ExpressionUUID->"95865dbe-dae0-4f6c-bc6d-27ed3f95039b"]
+}, Open  ]],
+Cell[4461, 144, 131, 0, 35, "Text",ExpressionUUID->"191ac87d-28d0-4b25-a01b-3601844f7337"],
+Cell[CellGroupData[{
+Cell[4617, 148, 182, 3, 30, "Input",ExpressionUUID->"d36b4268-1513-4ccb-8f5d-b86aed462bb1"],
+Cell[4802, 153, 130, 2, 34, "Output",ExpressionUUID->"30d97528-ebc2-4918-909b-95aa5a951f4b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4213, 140, 182, 3, 30, "Input",ExpressionUUID->"d36b4268-1513-4ccb-8f5d-b86aed462bb1"],
-Cell[4398, 145, 130, 2, 34, "Output",ExpressionUUID->"30d97528-ebc2-4918-909b-95aa5a951f4b"]
+Cell[4969, 160, 236, 5, 30, "Input",ExpressionUUID->"d6d79da8-58ac-4e59-b8cd-c658c89a2943"],
+Cell[5208, 167, 107, 1, 34, "Output",ExpressionUUID->"90258d18-7bc0-4ead-9a7f-4bc297ecb180"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4565, 152, 236, 5, 30, "Input",ExpressionUUID->"d6d79da8-58ac-4e59-b8cd-c658c89a2943"],
-Cell[4804, 159, 107, 1, 34, "Output",ExpressionUUID->"90258d18-7bc0-4ead-9a7f-4bc297ecb180"]
+Cell[5352, 173, 182, 3, 30, "Input",ExpressionUUID->"65577c76-a0ad-48f8-97d4-0ebca024725a"],
+Cell[5537, 178, 130, 2, 34, "Output",ExpressionUUID->"95120438-f9fe-4b2d-bcaa-bf473d690ab1"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4948, 165, 182, 3, 30, "Input",ExpressionUUID->"65577c76-a0ad-48f8-97d4-0ebca024725a"],
-Cell[5133, 170, 130, 2, 34, "Output",ExpressionUUID->"95120438-f9fe-4b2d-bcaa-bf473d690ab1"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[5300, 177, 236, 5, 30, "Input",ExpressionUUID->"5db9c40e-592d-4ac3-a973-af4dd872807c"],
-Cell[5539, 184, 124, 2, 34, "Output",ExpressionUUID->"4271d083-c9ff-44c0-8215-9e496da5f43f"]
+Cell[5704, 185, 236, 5, 30, "Input",ExpressionUUID->"5db9c40e-592d-4ac3-a973-af4dd872807c"],
+Cell[5943, 192, 124, 2, 34, "Output",ExpressionUUID->"4271d083-c9ff-44c0-8215-9e496da5f43f"]
 }, Open  ]]
 }
 ]
