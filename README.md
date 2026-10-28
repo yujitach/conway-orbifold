@@ -132,7 +132,7 @@ In `partition-function/`,
 
 - `partition-function-common.nb` implements the common routines to work with the partition functions of the Co0 orbifold of the symmetric/alternating orbifold of 24 copies of the Duncan theory. This must be run before running other programs below.
 
-- `phase-finder.nb` uses various integrality conditions to determine the anomaly-cancelling phases A and B, and writes them to `AB.m`. The choice of the phases turns out to be unique. (The code reports the progress as it determines the phases; it is actually quite fun to watch how it solves the constraints. The computation takes about 10 minutes on M1 Mac.)
+- `phase-finder.nb` uses various integrality conditions to determine the anomaly-cancelling phases A and B, and writes them to `AB.m`. The choice of the phases turns out to be unique. (The code reports the progress as it determines the phases; it is actually quite fun to watch how it solves the constraints. The computation takes about 10 minutes on M1 Mac.) A video of it running is available on [YouTube](https://www.youtube.com/watch?v=5qP8mt01PjM).
 
 - `checker.nb` uses the phases A and B determined previously and computes the partition functions of the various variants of the orbifolds. It checks that the computed values are all integers, thus the name.
 
