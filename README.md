@@ -1,4 +1,4 @@
-This repository contains the codes and the data for the paper "The Art of Orbifolding by Huge Non-Abelian Groups", arXiv:2610.?????, by Jan Albert, Masaki Okada, and Yuji Tachikawa.
+This repository contains the codes and the data for the paper "The Art of Orbifolding by Huge Non-Abelian Groups", [arXiv:2610.36024](https://arxiv.org/abs/2610.36024), by Jan Albert, Masaki Okada, and Yuji Tachikawa.
 
 
 ### Outline
